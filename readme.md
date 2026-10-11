@@ -163,7 +163,7 @@ The following example illustrates how the advanced pipeline can be called after 
 adv_rag = AdvancedRAGPipeline(rag_retriever, llm)
 
 result = adv_rag.query(
-    "What is Attention Is All You Need?",
+    "SATELLITE BRIGHTNESS AND BLOCKAGE OF THE SKY",
     top_k=3,
     min_score=0.1,
     stream=True,
